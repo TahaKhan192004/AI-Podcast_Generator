@@ -74,6 +74,11 @@ try:
 
     cleaned_content = response.content.strip("```json").strip("```").strip()
     dialogue_data = json.loads(cleaned_content)
+    
+    print("Check Added")
+
+
+
 
     final_audio = AudioSegment.silent(duration=500)
 
