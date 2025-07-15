@@ -1,3 +1,5 @@
+print("Starting AI Podcast Generation...")
+
 from dotenv import load_dotenv
 import os
 import json
